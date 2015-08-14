@@ -7,5 +7,5 @@ EXPOSE 8000
 
 ENTRYPOINT ["/sbin/httpd", "-f", "-p", "8000", "-h", "/www"]
 
-# Standard clean-up for the baseimage. @see: http://phusion.github.io/baseimage-docker/
+# Standard clean-up to remove possible junk.
 RUN apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
