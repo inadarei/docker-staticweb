@@ -1,5 +1,8 @@
 # docker-staticweb
-A super-lightweight (5.6**MB**!) Docker container to expose a local folder as a website over HTTP. Great for testing front-end Single-Page Applications.
+
+Deliciously lean utility for testing Javascript / Single-Page Applications.
+
+A super-lightweight (5.6**MB**!) Docker container to expose a local folder as a website over HTTP. 
 
 ## Usage
 
