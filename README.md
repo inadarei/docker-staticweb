@@ -7,7 +7,7 @@ A super-lightweight (5.6**MB**!) Docker container to expose a local folder as a 
 ## Usage
 
 ```console
-docker run -ti -d -v /path/to/local/folder:/www irakli/staticwebsite -p 8000 --name demo_www
+docker run -ti -d -v /path/to/local/folder:/www -p 8000 --name demo_www irakli/staticwebsite
 ```
 
 You can replace:
