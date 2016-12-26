@@ -36,4 +36,4 @@ If you want the port number to always be some predefined one (e.g. 7878) your al
 alias servehttp="docker run -d -v $PWD:/www -p 7878:8000 irakli/staticwebsite"
 ```
 
-However, in this case you will only be able to serve one folder at a time, since you cannot bind two servers on the same port (which may not be a problem).
+However, in this case you will only be able to serve one folder at a time, since you cannot bind two servers on the same port.
