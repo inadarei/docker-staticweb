@@ -1,4 +1,4 @@
-FROM busybox:1.26
+FROM busybox:1.28
 MAINTAINER Irakli Nadareishvili
 
 RUN adduser -s /bin/false -u 7007 -D webserver \
